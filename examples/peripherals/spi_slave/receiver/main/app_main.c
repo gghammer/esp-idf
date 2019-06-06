@@ -74,6 +74,7 @@ void app_main()
     int n=0;
     esp_err_t ret;
 
+    printf("Hammer Test");
     //Configuration for the SPI bus
     spi_bus_config_t buscfg={
         .mosi_io_num=GPIO_MOSI,
